@@ -1,0 +1,40 @@
+
+.top-addr-bar{
+    height: 24px;
+    background-color: #334F65;
+    color: #E9EAED;
+    line-height: 100%;
+    font-size: 12px;
+}
+
+.church-brand{
+    height: 155px;
+    background-color: #1F96D2;
+}
+.nav-brand{
+    background-color: #1F96D2;
+     height: 52px;
+}
+h1  {
+    font-size: 11px;
+    font-weight: 900;
+    color: #fff;
+    margin: 5px 0 5px 0;
+}
+
+h3  {
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+     margin: 5px 0 10px 0;
+}
+img {  margin: 5px;
+}
+
+.navbar-default{
+    height: 40px;
+    background: #334F65;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
