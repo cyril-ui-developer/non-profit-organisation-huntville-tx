@@ -39,6 +39,7 @@
   list-style: none;
   font-size: @font-size-base;
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+
   background-color: #1F95D2;
   border: 1px solid @dropdown-fallback-border; // IE8 fallback
   border: 1px solid #1F95D2;
@@ -46,6 +47,7 @@
   .box-shadow(0 6px 12px rgba(0,0,0,.175));
   background-clip: padding-box;
  
+
 
   // Aligns the dropdown menu to right
   //
@@ -63,11 +65,13 @@
   // Links within the dropdown menu
   > li > a {
     display: block;
+
     padding: 10px 75px 10px 13px;
     clear: both;
     font-weight: normal;
     line-height: @line-height-base;
     color: #fff;
+
     white-space: nowrap; // prevent links from randomly breaking onto new lines
   }
 }
